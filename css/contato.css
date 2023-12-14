@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: linear-gradient(
+        45deg,
+        hsl(232deg 79% 52%) 0%,
+        hsl(227deg 82% 54%) 13%,
+        hsl(222deg 87% 55%) 29%,
+        hsl(217deg 91% 55%) 46%,
+        hsl(212deg 96% 54%) 60%,
+        hsl(205deg 100% 50%) 71%,
+        hsl(204deg 99% 53%) 80%,
+        hsl(201deg 98% 54%) 87%,
+        hsl(198deg 97% 53%) 92%,
+        hsl(194deg 96% 52%) 97%,
+        hsl(190deg 100% 49%) 100%);
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  h1,
+  h2 {
+    font-size: 3rem;
+    color: #FCF7FF;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  h1::before {
+    display: block;
+  }
+  
+  h2::before {
+    display: block;
+  }
+  
+  .form {
+    width: 40%;
+    max-width: 32rem;
+    font-size: 1.125rem;  
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%; 
+   
+  }
+  
+  .form label {
+    color: #f8f8f8;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: border-color, box-shadow 0.2s;
+    background-color:transparent;
+    border-color: #D3E9ED;
+    
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: #78c611;
+    box-shadow: 0 0 0 1px #4dc8ff;
+    color: #F5ECFF; 
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #63b40d;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #247d00;
+  }
+  
+  a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #F5ECFF;
+  
+  }
+
+  input{
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
